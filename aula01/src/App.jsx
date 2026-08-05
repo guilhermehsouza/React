@@ -1,17 +1,14 @@
+import "./App.css";
+import Exemplo1 from "./Exemplo1";
+
 export default function App()
 {
-  let nome, idade, altura;
+    return (
+      <div>
 
-  nome = "Guilherme";
+          <h1>Aula 01 - Primeiros Passos no React</h1>
+          <Exemplo1 />
 
-  return (
-    <div>
-
-      <h1 style={{color : "red"}}>Hello, World!</h1>
-
-      <p>
-        Olá {nome}, seja bem-vindo ao JavaScript!
-      </p>
-    </div>
-  );
+      </div>
+    );
 }
